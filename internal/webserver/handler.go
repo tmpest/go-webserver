@@ -14,18 +14,23 @@ type Page struct {
 	Content template.HTML
 }
 
+var pageTitleMap = map[string]string{
+	"contact_us":  "Contact Us",
+	"our_house":   "Our House",
+	"adventures":  "Our Adventures",
+	"livys_space": "Livy's Space",
+}
+
 // PageTitle returns a formated string to be used when setting the HTML page's title
 func (p Page) PageTitle() string {
-	// fmt.Printf("Recieved Call to: 'PageTitle'\nPage Title: %+v\n", p.Title)
 	if p.Title != "" {
-		return fmt.Sprintf(": %+v", p.Title)
+		return fmt.Sprintf(": %+v", pageTitleMap[p.Title])
 	}
 	return p.Title
 }
 
 // IsActivePage accepts a page title and returns true if it matches the current page's title
 func (p Page) IsActivePage(title string) bool {
-	// fmt.Printf("Recieved Call to: 'IsActivePage' with title: %+v\nPage Title: %+v\n", title, p.Title)
 	return p.Title == title
 }
 
@@ -44,6 +49,9 @@ func loadPage(title string) (*Page, error) {
 	return &Page{Title: title, Content: template.HTML(content)}, nil
 }
 
+// defaultTemplate loads the default template.html file for rendering most pages on the website
+var defaultTemplate = template.Must(template.ParseFiles("public/template.html"))
+
 // viewHandler simple handler that returns a page based on the url
 func viewHandler(w http.ResponseWriter, r *http.Request) {
 	title := r.URL.Path[len("/"):]
@@ -52,24 +60,5 @@ func viewHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	t, err := template.ParseFiles("public/template.html")
-	if err != nil {
-		log.Printf("Recieved an error while reading template file\n%+v\n", err)
-		return
-	}
-
-	t.Execute(w, p)
+	defaultTemplate.Execute(w, p)
 }
-
-// var ImageTemplate string = `<!DOCTYPE html>
-// <html lang="en"><head></head>
-// <body><img src="data:image/jpg;base64,{{.Image}}"></body>`
-
-// func imageAssetHandler(w http.ResponseWriter, r *http.Request) {
-// 	image, err := ioutil.ReadFile(r.URL.Path[len("/"):])
-// 	if err != nil {
-// 		log.Printf("Recieved an error while reading image file: %+v\n%+v\n", r.URL.Path, err)
-// 		return
-// 	}
-// 	fmt.Fprintf(w, "%+v", image)
-// }
