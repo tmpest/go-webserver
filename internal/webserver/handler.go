@@ -50,7 +50,15 @@ func loadPage(title string) (*Page, error) {
 	return &Page{Title: title, Content: template.HTML(content)}, nil
 }
 
-var workingDirectory, _ = os.Getwd()
+var workingDirectory = getWorkingDirectory()
+
+func getWorkingDirectory() string {
+	path := os.Getenv("WEBSERVER_ROOT")
+	if path == "" {
+		path, _ = os.Getwd()
+	}
+	return path
+}
 
 // defaultTemplate loads the default template.html file for rendering most pages on the website
 var defaultTemplate = template.Must(template.ParseFiles(workingDirectory + "/public/template.html"))
