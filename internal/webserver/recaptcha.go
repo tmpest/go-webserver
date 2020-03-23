@@ -69,7 +69,7 @@ func recaptchaHandler(w http.ResponseWriter, r *http.Request) {
 	defaultTemplate.Execute(w, p)
 }
 
-var contactUsPage string = "private/contact_us.html"
+var contactUsPage string = workingDirectory + "/private/contact_us.html"
 var contactUsTitle string = "contact_us"
 
 func loadContactUsPage() (*Page, error) {

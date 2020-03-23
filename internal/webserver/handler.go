@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"os"
 )
 
 // Page representation for a web page
@@ -39,7 +40,7 @@ func loadPage(title string) (*Page, error) {
 	if title == "" {
 		title = "index"
 	}
-	filename := "public/" + title + ".html"
+	filename := workingDirectory + "/public/" + title + ".html"
 	log.Printf("Loading %+v\n", filename)
 	content, err := ioutil.ReadFile(filename)
 	if err != nil {
@@ -49,8 +50,10 @@ func loadPage(title string) (*Page, error) {
 	return &Page{Title: title, Content: template.HTML(content)}, nil
 }
 
+var workingDirectory, _ = os.Getwd()
+
 // defaultTemplate loads the default template.html file for rendering most pages on the website
-var defaultTemplate = template.Must(template.ParseFiles("public/template.html"))
+var defaultTemplate = template.Must(template.ParseFiles(workingDirectory + "/public/template.html"))
 
 // viewHandler simple handler that returns a page based on the url
 func viewHandler(w http.ResponseWriter, r *http.Request) {

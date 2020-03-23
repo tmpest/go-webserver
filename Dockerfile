@@ -1,7 +1,6 @@
 FROM golang
 
-RUN go get github.com/tmpest/go-webserver/cmd/webserver
-RUN go get github.com/tmpest/go-webserver/...
+RUN go get -u github.com/tmpest/go-webserver
 
 # Enable module management
 # May or may not be necessary 
@@ -12,6 +11,6 @@ RUN go get github.com/tmpest/go-webserver/...
 
 # RUN go build go-webserver/cmd/webserver/webserver.go
 
-ENTRYPOINT /go/bin/webserver
+ENTRYPOINT /go/bin/go-webserver
 
 EXPOSE 8080
