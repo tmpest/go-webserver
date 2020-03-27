@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tmpest-website
+  labels:
+    app: webserver
+spec:
+  selector:
+    matchLabels:
+      app: webserver
+      tier: web
+  template:
+    metadata:
+      labels:
+        app: webserver
+        tier: web
+    spec:
+      containers:
+      - name: webserver-container
+        image: tmpest/go-website:latest
+        ports:
+        - containerPort: 8080
+        env:
+        - name: GOOGLE_RECAPTCHA_SECRET
+          value: "6Lcxg9sUAAAAAPtpL02zxFYJmNZfed7qYBPLS6BG"

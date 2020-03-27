@@ -24,10 +24,10 @@ var pageTitleMap = map[string]string{
 
 // PageTitle returns a formated string to be used when setting the HTML page's title
 func (p Page) PageTitle() string {
-	if p.Title != "" {
+	if p.Title != "" && p.Title != "index" {
 		return fmt.Sprintf(": %+v", pageTitleMap[p.Title])
 	}
-	return p.Title
+	return ""
 }
 
 // IsActivePage accepts a page title and returns true if it matches the current page's title
