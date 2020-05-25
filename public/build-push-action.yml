@@ -1,0 +1,7 @@
+- name: Build and push Docker images
+  uses: docker/build-push-action@v1.1.0
+    username: ${{ secrets.DOCKER_HUB_USERNAME }}
+    password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+    repository: tmpest/go-website
+    tag_with_ref: true
+    push: ${{ startsWith(github.ref, 'refs/tags/') }}
