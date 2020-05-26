@@ -61,7 +61,7 @@ func getWorkingDirectory() string {
 }
 
 // defaultTemplate loads the default template.html file for rendering most pages on the website
-var defaultTemplate = template.Must(template.ParseFiles(workingDirectory + "/public/template.html"))
+var defaultTemplate, _ = template.ParseFiles(workingDirectory + "/public/template.html")
 
 func cachedTemplateViewHandler(w http.ResponseWriter, r *http.Request) {
 	title := r.URL.Path[len("/"):]
@@ -70,7 +70,7 @@ func cachedTemplateViewHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	defaultTemplate.Execute(w, p)
+	template.Must(defaultTemplate).Execute(w, p)
 }
 
 // viewHandler does not used a cached template because it makes development easier
