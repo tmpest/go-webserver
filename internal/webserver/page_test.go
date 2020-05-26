@@ -28,7 +28,7 @@ func TestPageTitle(t *testing.T) {
 
 func TestLoadPage(t *testing.T) {
 	osWD, _ := os.Getwd()
-	workingDirectory = filepath.Clean(filepath.Join(osWD, "\\..\\.."))
+	workingDirectory = filepath.Clean(filepath.Join(osWD, "/../.."))
 	t.Logf("Manually setting working directory to: %+v\n", workingDirectory)
 
 	for _, title := range supportedTitles {
