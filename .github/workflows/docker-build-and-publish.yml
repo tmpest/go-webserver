@@ -11,8 +11,7 @@ on:
     - latest
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
+  build-and-publish:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -35,9 +34,6 @@ jobs:
             curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
             dep ensure
         fi
-
-    - name: Build
-      run: go build -v .
 
     - name: Test Webserver Package
       run: go test -v ./internal/webserver

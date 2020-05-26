@@ -70,7 +70,7 @@ func cachedTemplateViewHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	template.Must(defaultTemplate).Execute(w, p)
+	defaultTemplate.Execute(w, p)
 }
 
 // viewHandler does not used a cached template because it makes development easier
