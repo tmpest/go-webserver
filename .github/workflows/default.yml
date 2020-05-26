@@ -33,8 +33,8 @@ jobs:
             dep ensure
         fi
 
-    - name: Build
-      run: go build -v .
+    - name: Build Webserver Package
+      run: go build -v ./internal/webserver
 
     - name: Test Webserver Package
       run: go test -v ./internal/webserver
