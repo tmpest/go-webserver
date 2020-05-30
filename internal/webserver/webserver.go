@@ -12,7 +12,7 @@ func Start(useCachedTemplate bool) {
 	} else {
 		http.HandleFunc("/", viewHandler)
 	}
-
+	http.HandleFunc("/our_house", ourHouseHandler)
 	http.HandleFunc("/contact_us/recaptcha", recaptchaHandler)
 	http.Handle("/public/assets/", http.FileServer(http.Dir(workingDirectory)))
 	http.Handle("/public/javascript/", http.FileServer(http.Dir(workingDirectory)))

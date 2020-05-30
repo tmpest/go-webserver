@@ -1,0 +1,19 @@
+<div class="carousel-item {{if eq .Index 0}} active{{end}}">
+	{{if eq .Type "img"}}
+  <a href="#{{.ID}}-{{printf "%.2d" .Index}}">
+    <img class="img-fluid rounded" src="{{.Location}}" alt="{{.AltText}}">
+  </a>
+	{{else if eq .Type "youtube"}}
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="{{.Location}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+	{{end}}
+  <div class="carousel-caption bg-dark d-block py-2 pb-3 rounded" style="position: relative;left: 0;top: 0;">
+    <p class="px-2 pt-2 mb-2">{{.Caption}}</p>
+  </div>
+</div>
+{{if eq .Type "img"}}
+<a href="#_" class="lightbox" id="{{.ID}}-{{printf "%.2d" .Index}}">
+  <img src="{{.Location}}">
+</a>
+{{end}}

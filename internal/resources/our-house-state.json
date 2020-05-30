@@ -1,0 +1,276 @@
+{
+  "pageTitle": ": Our House",
+  "timeline": {
+    "entries": [
+      {
+        "id": "05292020",
+        "title": "Design Appointment!",
+        "date": "May 29th, 2020",
+        "body": [
+          "Earlier this week Olivia and myself drove over to Kirkland for our Design Appointment. We got to pick out all the details for the house like the flooring, the counter tops, the cabinets, extra outlets, light placement, and a lot more. We think for our first try at it, our house should look pretty nice.",
+          "We really spent a lot of time on the kitchen. We had them make our cabinets and island 2 different colors. We picked some vinyl hardwood floor that look almost real, very excited for that. There will be a tile backsplash behind the stove. Theres a lot more but I think those were some of our favorites, the rest you will just have to come and see!",
+          "We got an update from our build manager as well. He let us know that the backfilling of our house was finishing up, and they would get a lumber drop the following week. Which means framing will follow shortly after. He sent over some photos of the progress so far as well."
+        ],
+        "media": [
+          {
+            "index": 0,
+            "caption": "Our countertop color choice with our cabinet colors next to it",
+            "alt": "Ohhhhhh",
+            "location": "/public/assets/images/05292020/cabinets-countertop.jpg",
+            "type": "img"
+          },
+          {
+            "index": 1,
+            "caption": "Our flooring choice, most of the ground floor will be this",
+            "alt": "I can't believe it's not wood",
+            "location": "/public/assets/images/05292020/flooring.jpg",
+            "type": "img"
+          },
+          {
+            "index": 2,
+            "caption": "All the choices we picked out laid out next to eachother",
+            "alt": "Ahhhhhhh",
+            "location": "/public/assets/images/05292020/layout.jpg",
+            "type": "img"
+          },
+          {
+            "index": 3,
+            "caption": "Backfilling our lot",
+            "alt": "fill her up!",
+            "location": "/public/assets/images/05292020/backfilling-1.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 4,
+            "caption": "Backfilling our lot",
+            "alt": "fill her up!",
+            "location": "/public/assets/images/05292020/backfilling-2.jpeg",
+            "type": "img"
+          }
+        ]
+      },
+      {
+        "id": "05152020",
+        "title": "Construction Begins!",
+        "date": "15th May, 2020",
+        "body": [
+          "A global pandemic took everyone by surprise except, it seems, our builders. Construction was halted for almost a month, but we were surprised to find that our House, at least, was really not affected.",
+          "We are told that there could be some disruptions down the line with regards to securing labor or materials with the pandemic looming in the background. But despite all that, our close date looks like it will still be around the end of September to mid October.",
+          "We recently met with our construction manager,they went over a lot of things like the build schedule, all the steps they take, the house orientation and the exact property line; we think we should have an awesome backyard!",
+          "We also took a walk around the property on the weekend before talking with them. During our visit they had only excavated but it was cool to see things starting to come together. The photos we got later are of the finished foundation being un-formed.",
+          "Coming up we have our design appointment where we will pick out all the fun things for the house, framing should start within a few weeks. Around when framing is done we should be scheduled to do a walk through with the construction manager. Lots more to come!"],
+        "media": [
+          {
+            "index": 0,
+            "caption": "Our foundation!",
+            "alt": "foundation of our new house",
+            "location": "/public/assets/images/05152020/lot-4-foundation.jpg",
+            "type": "img"
+          },
+          {
+            "index": 2,
+            "caption": "Our foundation!",
+            "alt": "foundation of our new house",
+            "location": "/public/assets/images/05152020/lot-4-foundation-2.jpg",
+            "type": "img"
+          },
+          {
+            "index": 3,
+            "caption": "Take a walk with us around our excavated lot",
+            "alt": "",
+            "location": "https://www.youtube.com/embed/DDptRXNye9A",
+            "type": "youtube"
+          }
+        ]
+      },
+      {
+        "id": "02152020",
+        "title": "We bought a house!",
+        "date": "15th February, 2020",
+        "body": [
+          "We dropped off a check to Pulte and locked in our choices for a new Home in Hall Lake! We choose to go with the <a href=\"https://www.pulte.com/homes/washington/seattle/lynnwood/hall-lake-210342/roslyn-690701\">Roslynn Layout</a>. The lot we choose is far enough out that we get to customize a lot of aspects of the house. I included a sample floor plan of some of the structural options we chose.",
+          "We opted to go with a 3 car garage instead of a 4th bedroom, this should give use more storage space as a well as a workshop like area for Josh. We think there should still have pleanty of space for guests!",
+          "We also splurged on the outdoor fireplace. We gave this one a lot of thought and figured while we both like a real wood fire the overhead of starting one and safely dealing with it would mean it would probably not happen as often as we'd like. We think the gas fireplace which turns on with a flip of a switch will help that.",
+          "In the kitchen we upgraded the kitchen island to a larger version. It adds some extra storage, seating, and adds a bit more countertop space.",
+          "Upstairs we have not changed too much. It's not shown in the floor plan but we opted to upgrade our Laundry room to have a gas stub for a Gas Dryer (cheaper utilties in long run, shorter dry times, and less static are some benefits) as well got a sink pre-plumbed and Josh will install it himself in the future.",
+          "In the Owner's suite we decided to upgrade the bathroom shower a bit. We went for walkin framed shower. There is a rain fall shower head as well as a normal one. I wish we had pictures to share, but for now you will just have to trust us that it was hard to pass up!"
+        ],
+        "media": [
+          {
+            "index": 0,
+            "caption": "We did it! Look for more of these shots as the house is built!",
+            "alt": "Us on the lot",
+            "location": "/public/assets/images/02152020/josh-and-livy-on-lot-close.png",
+            "type": "img"
+          },
+          {
+            "index": 2,
+            "caption": "In our backyard &#x1F606",
+            "alt": "Us on the lot",
+            "location": "/public/assets/images/02152020/josh-and-livy-on-lot-far.png",
+            "type": "img"
+          },
+          {
+            "index": 3,
+            "caption": "Looking at the lot head on",
+            "alt": "the lot",
+            "location": "/public/assets/images/05152020/lot-4-foundation-2.jpg",
+            "type": "img"
+          },
+          {
+            "index": 4,
+            "caption": "Our lot runs all the way back and to the left of the sloped grade",
+            "alt": "the lot",
+            "location": "/public/assets/images/02152020/lot-2-original.png",
+            "type": "img"
+          },
+          {
+            "index": 5,
+            "caption": "Other side",
+            "alt": "the lot",
+            "location": "/public/assets/images/02152020/lot-3-original.png",
+            "type": "img"
+          },
+          {
+            "index": 6,
+            "caption": "Small community park... comming soon!",
+            "alt": "the lot",
+            "location": "/public/assets/images/02152020/park-original.png",
+            "type": "img"
+          },
+          {
+            "index": 7,
+            "caption": "A happy Olivia in front of our lot with the lake behind her",
+            "alt": "A Beautiful View!",
+            "location": "/public/assets/images/02152020/lake-and-livy-from-lot-original.png",
+            "type": "img"
+          },
+          {
+            "index": 8,
+            "caption": "Example ground floor layour of our model",
+            "alt": "kinda our housee",
+            "location": "/public/assets/images/02152020/floorplan-floor-1.png",
+            "type": "img"
+          },
+          {
+            "index": 9,
+            "caption": "Example upper floor layour of our model",
+            "alt": "kinda our house",
+            "location": "/public/assets/images/02152020/floorplan-floor-2.png",
+            "type": "img"
+          }
+        ]
+      },
+      {
+        "id": "02012020",
+        "title": "Our Journey Begins!",
+        "date": "1st February, 2020",
+        "body": [
+          "Olivia and myself had been dreaming about a house for a while, and when 2020 rolled around we resolved ourselves to buy a house. Initially we had been looking exclusively within Seattle and had found a lot of properties we liked in the West Seattle area and some in nearby South Seattle neighborhoods.",
+          "We learned a lot! Especially about what we really cared about and we both preferred newer construction to a project home. A lot of older properties still sell for (in my opinion) absurdly high prices in Seattle, it was very hard to rationalize the costs of a house that still required a lot money and time when newer homes were selling at the similar prices.",
+          "On February 8th 2020, we saw a community North of Seattle called <a href=\"https://www.pulte.com/homes/washington/seattle/lynnwood/hall-lake-210342\">Hall Lake built by Pulte Homes</a>. The homes were beautiful and we saw something that made us pause awant to stop looking. Although... the first time we went looking for it, we got lost and couldn't find it &#x1F606;"
+        ],
+        "media": [
+          {
+            "index": 0,
+            "caption": "Kitchen",
+            "alt": "Beautiful kitchen",
+            "location": "/public/assets/images/02012020/kitchen-2-orginal.png",
+            "type": "img"
+          },
+          {
+            "index": 1,
+            "caption": "More Kitchen",
+            "alt": "Beautiful kitchen",
+            "location": "/public/assets/images/02012020/kitchen-3-orginal.png",
+            "type": "img"
+          },
+          {
+            "index": 2,
+            "caption": "Even more kitchen",
+            "alt": "Beautiful kitchen",
+            "location": "/public/assets/images/02012020/kitchen-orginal.png",
+            "type": "img"
+          },
+          {
+            "index": 3,
+            "caption": "Cabinets",
+            "alt": "Beautiful cabinets",
+            "location": "/public/assets/images/02012020/kitchen-island-cabinets-orginal.png",
+            "type": "img"
+          },
+          {
+            "index": 4,
+            "caption": "Outdoor Fireplace",
+            "alt": "Burn!",
+            "location": "/public/assets/images/02012020/kitchen-island-cabinets-orginal.png",
+            "type": "img"
+          },
+          {
+            "index": 5,
+            "caption": "Basic patio",
+            "alt": "Basic",
+            "location": "/public/assets/images/02012020/patio-orginal.png",
+            "type": "img"
+          },
+          {
+            "index": 6,
+            "caption": "Laundry room",
+            "alt": "Clothes go here",
+            "location": "/public/assets/images/02012020/laundry-room-original.png",
+            "type": "img"
+          },
+          {
+            "index": 7,
+            "caption": "Bathroom",
+            "alt": "The throne room",
+            "location": "/public/assets/images/02012020/bathroom-orginal.png",
+            "type": "img"
+          },
+          {
+            "index": 8,
+            "caption": "Owner's suite bathroom",
+            "alt": "Perty",
+            "location": "/public/assets/images/02012020/owners-bathroom-original.png",
+            "type": "img"
+          },
+          {
+            "index": 9,
+            "caption": "Owner's suite massive walkin closet",
+            "alt": "Echoooooo",
+            "location": "/public/assets/images/02012020/owners-closet-original.png",
+            "type": "img"
+          },
+          {
+            "index": 10,
+            "caption": "Roslynn upstairs loft space",
+            "alt": "Bonus space",
+            "location": "/public/assets/images/02012020/loft-original.png",
+            "type": "img"
+          },
+          {
+            "index": 11,
+            "caption": "View of the Interurban bike trail from a model home that runs along the neighborhood",
+            "alt": "Bike trail",
+            "location": "/public/assets/images/02012020/loft-with-view-of-interurban-original.png",
+            "type": "img"
+          },
+          {
+            "index": 13,
+            "caption": "A view of down towards the lot",
+            "alt": "Community",
+            "location": "/public/assets/images/02012020/walking-view-orginal.png",
+            "type": "img"
+          },
+          {
+            "index": 12,
+            "caption": "A view of the lake that the community is built around",
+            "alt": "View",
+            "location": "/public/assets/images/02012020/lake-view-orginal.png",
+            "type": "img"
+          }
+        ]
+      }
+    ]
+  }
+}
