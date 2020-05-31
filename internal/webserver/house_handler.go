@@ -59,8 +59,9 @@ func loadOurHouseData() *HousePage {
 
 	for _, te := range ourHousePage.Timeline.Entries {
 		// Copy the ID from the Parent
-		for _, tm := range te.Media {
+		for i, tm := range te.Media {
 			tm.ID = te.ID
+			te.Media[i] = tm
 		}
 		// Order the Media Elements according to the indexes
 		sort.Slice(te.Media, func(i int, j int) bool {
