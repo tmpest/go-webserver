@@ -18,5 +18,5 @@ func Start(useCachedTemplate bool) {
 	http.HandleFunc("/public/assets/", assetsHandler)
 	http.Handle("/public/javascript/", http.FileServer(http.Dir(workingDirectory)))
 	http.Handle("/public/stylesheets/", http.FileServer(http.Dir(workingDirectory)))
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Fatal(http.ListenAndServe(":80", nil))
 }
