@@ -1,0 +1,10 @@
+version: '2'
+services:
+  tmpest-website:
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      context: .
+    environment:
+      - VIRTUAL_HOST=tmpest.com
+      - LETSENCRYPT_HOST=tmpest.com
