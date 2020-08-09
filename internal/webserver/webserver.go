@@ -14,7 +14,8 @@ func Start(useCachedTemplate bool) {
 	}
 	http.HandleFunc("/our_house", ourHouseHandler)
 	http.HandleFunc("/contact_us/recaptcha", recaptchaHandler)
-	http.Handle("/public/assets/", http.FileServer(http.Dir(workingDirectory)))
+	// http.Handle("/public/assets/", http.FileServer(http.Dir(workingDirectory)))
+	http.HandleFunc("/public/assets/", assetsHandler)
 	http.Handle("/public/javascript/", http.FileServer(http.Dir(workingDirectory)))
 	http.Handle("/public/stylesheets/", http.FileServer(http.Dir(workingDirectory)))
 	log.Fatal(http.ListenAndServe(":8080", nil))
