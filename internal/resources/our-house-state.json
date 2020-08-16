@@ -3,6 +3,200 @@
   "timeline": {
     "entries": [
       {
+        "id": "20200807",
+        "title": "Construction Progress",
+        "date": "August 7th, 2020",
+        "body": [
+          "A lot has happened since our last update! Construction has proceeded at lightning fast paced, considering Covid-19 is still going on in full swing it's crazy to think things look like the house will still be ready sometime in October. It's even crazier to think our original guess may actually be right, things are pointing to sometime in October for a close date. There is still a lot of unknowns, and in our last update we were told there are labor shortages for some of the hard surface installations we had coming up, so we could still be wrong.",
+          "The builders have finished framing, rough in, insulation, and drywall. When all the plumbing and electrical was completed we did a walk through with the build manager as he did his inspection. We found a few missing things but they were fixed a day or two later, but it was great to be able to go over it with them.",
+          "Up next should be all the interior work. Flooring, cabinets, counters, painting, and more. We should get our official close date in the next couple of weeks, and with that probably another update with some photos! Until then, enjoy some photos of some of work done since our last update."
+        ],
+        "media": [
+          {
+            "index": 0,
+            "caption": "Siding up on the house, unpainted",
+            "alt": "siding up on the house",
+            "location": "/public/assets/images/20200807/20200717-1.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 1,
+            "caption": "More siding",
+            "alt": "more siding",
+            "location": "/public/assets/images/20200807/20200717-2.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 2,
+            "caption": "Foyer framed",
+            "alt": "foyer framed",
+            "location": "/public/assets/images/20200807/20200717-3.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 3,
+            "caption": "Family room/kitchen framed",
+            "alt": "",
+            "location": "/public/assets/images/20200807/20200717-4.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 4,
+            "caption": "Upstairs loft framed",
+            "alt": "Upstairs loft framed",
+            "location": "/public/assets/images/20200807/20200717-5.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 5,
+            "caption": "Bedroom framed",
+            "alt": "Bedroom framed",
+            "location": "/public/assets/images/20200807/20200717-6.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 6,
+            "caption": "Different day, same outside",
+            "alt": "Different day, same outside",
+            "location": "/public/assets/images/20200807/20200723-1.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 7,
+            "caption": "Different day, same outside",
+            "alt": "Different day, same outside",
+            "location": "/public/assets/images/20200807/20200723-2.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 8,
+            "caption": "Foyer insulation",
+            "alt": "Foyer insulation",
+            "location": "/public/assets/images/20200807/20200723-3.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 9,
+            "caption": "Kitchen insulation, featuring our spray painted initials",
+            "alt": "Kitchen insulation, featuring our spray painted initials",
+            "location": "/public/assets/images/20200807/20200723-4.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 10,
+            "caption": "Family room insulation",
+            "alt": "Family room insulation",
+            "location": "/public/assets/images/20200807/20200723-5.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 11,
+            "caption": "Upstairs insulation",
+            "alt": "Upstairs insulation",
+            "location": "/public/assets/images/20200807/20200723-6.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 12,
+            "caption": "More upstairs insulation",
+            "alt": "More upstairs insulation",
+            "location": "/public/assets/images/20200807/20200723-7.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 13,
+            "caption": "More outside, even differenter day!",
+            "alt": "More outside, even differenter day!",
+            "location": "/public/assets/images/20200807/20200731-1.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 14,
+            "caption": "More outside, even differenter day!",
+            "alt": "More outside, even differenter day!",
+            "location": "/public/assets/images/20200807/20200731-2.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 15,
+            "caption": "Foyer drywall",
+            "alt": "Foyer drywall",
+            "location": "/public/assets/images/20200807/20200731-3.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 16,
+            "caption": "Kitchen drywall",
+            "alt": "Kitchen drywall",
+            "location": "/public/assets/images/20200807/20200731-4.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 17,
+            "caption": "Family room drywall",
+            "alt": "Family room drywall",
+            "location": "/public/assets/images/20200807/20200731-5.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 18,
+            "caption": "Master bathroom drywall",
+            "alt": "Master bathroom drywall",
+            "location": "/public/assets/images/20200807/20200731-6.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 19,
+            "caption": "Other bathroom drywall",
+            "alt": "Other bathroom drywall",
+            "location": "/public/assets/images/20200807/20200731-7.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 20,
+            "caption": "Bedroom drywall",
+            "alt": "Bedroom drywall",
+            "location": "/public/assets/images/20200807/20200731-8.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 21,
+            "caption": "More outside, different day, now with gutters and driveway!",
+            "alt": "More outside, different day, now with gutters and driveway!",
+            "location": "/public/assets/images/20200807/20200807-1.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 22,
+            "caption": "More outside, different day, now with gutters and driveway!",
+            "alt": "More outside, different day, now with gutters and driveway!",
+            "location": "/public/assets/images/20200807/20200807-2.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 23,
+            "caption": "Foyer finished and textured drywall",
+            "alt": "Foyer finished and textured drywall",
+            "location": "/public/assets/images/20200807/20200807-3.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 24,
+            "caption": "Kitchen finished and textured drywall",
+            "alt": "Kitchen finished and textured drywall",
+            "location": "/public/assets/images/20200807/20200807-4.jpeg",
+            "type": "img"
+          },
+          {
+            "index": 25,
+            "caption": "Family room finished and textured drywall",
+            "alt": "Family room finished and textured drywall",
+            "location": "/public/assets/images/20200807/20200807-5.jpeg",
+            "type": "img"
+          }
+        ]
+      },
+      {
         "id": "05292020",
         "title": "Design Appointment!",
         "date": "May 29th, 2020",
